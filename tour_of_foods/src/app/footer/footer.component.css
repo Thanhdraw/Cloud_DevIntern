@@ -1,0 +1,31 @@
+footer{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #ccc;
+    
+}
+
+footer .w3-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+    
+}
+footer .w3-footer-item{
+    width: calc(100%/3);
+}
+footer .w3-footer > p{
+    word-wrap: break-word;
+}
+footer .w3-footer .w3-footer-item{
+    margin: 0 10px;
+}
+footer .w3-footer .w3-footer-item >.w3-footer-middle{
+    margin-top: 20px;
+    text-align: left;
+}
+footer .w3-footer .w3-footer-item >.w3-footer-middle img{
+    width: 10%;
+}
