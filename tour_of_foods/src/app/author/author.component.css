@@ -1,0 +1,16 @@
+section{
+    padding: 32px 16px;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+section h1{
+    margin: 10px 0;
+}
+section p{
+    width: 1000px;
+    margin: auto;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}

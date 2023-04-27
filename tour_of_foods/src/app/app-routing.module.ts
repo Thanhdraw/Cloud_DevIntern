@@ -5,8 +5,10 @@ import { MainComponent } from './main/main.component';
 import { FooDetailComponent } from './foo-detail/foo-detail.component';
 
 const routes: Routes = [
-  {path: '', component: MainComponent },
-  {path:'food-detail',component:FooDetailComponent},
+  {path: 'main', component: MainComponent },
+  {path:'blog',component:FooDetailComponent},
+  // { path: 'food-blog/:id', component: FooDetailComponent },
+ 
 ];
 
 @NgModule({

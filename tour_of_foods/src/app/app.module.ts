@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { FooDetailComponent } from './foo-detail/foo-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { AuthorComponent } from './author/author.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
     HeadeComponent,
     FooterComponent,
     MainComponent,
-    FooDetailComponent
+    FooDetailComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,

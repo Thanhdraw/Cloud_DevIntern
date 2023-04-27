@@ -1,6 +1,6 @@
 <section>
-    <!-- <h2>My Food</h2>
-    <div class="heroes" >
+    <!-- <h2>My Food</h2> -->
+    <!-- <div class="food-main" >
       <ul *ngFor="let food of foods" class="food-item">
         <li class="food-item" [class.selected]="food === selectedFood" type="button" (click)="onSelect(food)">
           <p class="badge">{{food.id}}</p>
@@ -9,16 +9,20 @@
         </li>
       </ul>
     </div> -->
-    
-      <div class="food-main" *ngFor="let food of foods">
+    <!-- <li *ngFor="let hero of Foods">
+      <a routerLink="/food-blog/{{hero.id}}">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+      </a>
+    </li> -->
+      <div class="food-main" *ngFor="let food of foods" >
           <div class="food-item" class="food-item" [class.selected]="food === selectedFood" type="button" (click)="onSelect(food)">
               <img src="{{food.img}}" alt="anh">
               <h3>{{food.name}}</h3>
-              <p class="name">{{food.id}}:{{food.des}}</p>
+              <p  class="name">{{food.id}}:{{food.des}}</p>
+              
           </div>
           
       </div>
-      <!-- <button type="button" (click)="onSelect(Food)"> -->
+      <!--  -->
           
-            <app-foo-detail [food]="selectedFood"></app-foo-detail>
 </section>
