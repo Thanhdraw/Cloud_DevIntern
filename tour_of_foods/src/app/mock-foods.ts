@@ -1,7 +1,7 @@
 import { Food } from "./hero";
 
 export const FOODS: Food[] = [
-  { id: 12,img:'https://www.w3schools.com/w3images/steak.jpg',name: 'Dr. Nice' , des:'Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.'},
+  { id: 12,img:'https://i.pinimg.com/564x/a6/d7/31/a6d73168ae7c1ba68712ea7b120df038.jpg',name: 'Dr. Nice' , des:'Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.'},
   { id: 13,img:'https://www.w3schools.com/w3images/cherries.jpg',name: 'Bombasto' , des:'Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.'},
   { id: 14,img:'https://www.w3schools.com/w3images/cherries.jpg',name: 'Cherries, interrupted' , des:'Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.'},
   { id: 15,img:'https://www.w3schools.com/w3images/sandwich.jpg',name: 'The Perfect Sandwich, A Real NYC Classic' , des:'Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.'},
